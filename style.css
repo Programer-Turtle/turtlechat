@@ -1,0 +1,55 @@
+body 
+{
+    background-color: rgb(53, 53, 68);
+}
+
+p
+{
+    color: white;
+    font-family: sans-serif;
+}
+
+.messagebox
+{
+    width: 97vw;
+    background-color: gray;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inputs
+{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input
+{
+    width: 300px;
+    height: 25px;
+    border-radius: 24px;
+    margin: 5px;
+    font-family: sans-serif;
+    text-align: left;
+    background-color: gray;
+    font-size: 20px;
+}
+
+button
+{
+    border-radius: 24px;
+    margin: 5px;
+    font-family: sans-serif;
+    background-color: grey;
+
+}
+
+.message
+{
+    width: fit-content;
+    height: 24px;
+}
